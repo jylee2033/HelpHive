@@ -1,0 +1,119 @@
+* 
+{
+    box-sizing : border-box;
+}
+
+body 
+{
+    margin : 0px;
+}
+
+h1 
+{
+    text-align : center;
+    color      : #04AA6D;
+}
+
+ul 
+{
+    list-style-type  : none;
+    margin           : 0;
+    padding          : 0;
+    overflow         : hidden;
+    border           : 1px solid #e7e7e7;
+    background-color : #f3f3f3;
+    margin-bottom    : 10px;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display          : block;
+    text-align       : center;
+    padding          : 14px 16px;
+    text-decoration  : none;
+    color            : white;
+    background-color : #04AA6D;
+    margin-right     : 2px;
+}
+
+li a:hover 
+{
+    background-color: rgb(17, 55, 182);
+}
+
+
+P 
+{
+    font-size  : large;
+    text-align : justify;
+}
+
+.main 
+{
+    width            : 69%;
+    padding          : 10px 50px;
+    background-color : #f3f3f3;
+    margin           : auto;
+}
+
+.main>h3 
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+a.edit, a.delete, a.create, a.view
+{
+	padding       : 5px 10px;
+	color         : white;
+	margin-right  : 20px;
+	border-radius : 5px;
+}
+
+a.edit
+{
+	background-color : rgb(12, 25, 207);
+	border           : 2px solid rgb(12, 25, 207);
+
+
+}
+
+a.delete
+{
+	background-color : rgb(250, 29, 29);
+	border           : 2px solid rgb(197, 24, 24);
+
+}
+
+a.create
+{
+	margin-left      : 50px;
+	background-color : #04AA6D;
+	border           : 2px solid #04AA6D;
+}
+
+a.view
+{
+	background-color : #afbb07;
+	border           :2px solid #afbb07;
+}
+
+a.edit:hover, a.delete:hover, a.view:hover
+{
+	padding      : 5px 15px;
+	margin-right : 10px;
+}
+
+a 
+{
+    text-decoration: none;
+}
